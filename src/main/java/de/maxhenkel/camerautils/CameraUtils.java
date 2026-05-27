@@ -2,6 +2,7 @@ package de.maxhenkel.camerautils;
 
 import com.mojang.blaze3d.platform.InputConstants;
 import de.maxhenkel.camerautils.config.ClientConfig;
+import de.maxhenkel.camerautils.network.SetDetachCameraPositionPayload;
 import de.maxhenkel.configbuilder.ConfigBuilder;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
@@ -66,5 +67,7 @@ public class CameraUtils implements ClientModInitializer {
                 .builder(ClientConfig::new)
                 .path(mc.gameDirectory.toPath().resolve("config").resolve(MODID).resolve("camerautils.properties"))
                 .build();
+
+        SetDetachCameraPositionPayload.registerClientReceiver();
     }
 }

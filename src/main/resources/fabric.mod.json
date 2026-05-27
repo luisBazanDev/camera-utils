@@ -14,8 +14,11 @@
   },
   "license": "All Rights Reserved",
   "icon": "icon.png",
-  "environment": "client",
+  "environment": "*",
   "entrypoints": {
+    "main": [
+      "de.maxhenkel.camerautils.CameraUtilsMain"
+    ],
     "client": [
       "de.maxhenkel.camerautils.CameraUtils"
     ]

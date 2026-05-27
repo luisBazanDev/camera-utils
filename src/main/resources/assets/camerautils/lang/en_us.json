@@ -36,5 +36,8 @@
   "message.camerautils.zoom_animation_from": "From: %s%%",
   "message.camerautils.zoom_animation_to": "To: %s%%",
   "message.camerautils.zoom_animation_duration": "Duration: %s ticks",
-  "options.camerautils.movement_smoothness": "Movement Smoothness"
+  "options.camerautils.movement_smoothness": "Movement Smoothness",
+  "command.camerautils.detachcam.set.all": "Moved all detached cameras to %.2f, %.2f, %.2f (pitch: %.1f, yaw: %.1f)",
+  "command.camerautils.detachcam.set.single": "Moved %s's detached camera to %.2f, %.2f, %.2f (pitch: %.1f, yaw: %.1f)",
+  "command.camerautils.detachcam.setall": "Moved all detached cameras to your position (%.2f, %.2f, %.2f, pitch: %.1f, yaw: %.1f)"
 }
