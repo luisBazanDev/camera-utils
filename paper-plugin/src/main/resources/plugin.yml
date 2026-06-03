@@ -1,0 +1,10 @@
+name: CameraUtils
+version: '1.1.2'
+main: de.maxhenkel.camerautils.paper.CameraUtilsPlugin
+api-version: '26.1'
+description: Server-side plugin to send detach camera commands to Camera Utils mod clients
+commands:
+  detachcam:
+    description: Detach camera for players with Camera Utils mod
+    permission: camerautils.command.detachcam
+    usage: /detachcam set <x> <y> <z> <pitch> <yaw> | set <player> <x> <y> <z> <pitch> <yaw> | setall
